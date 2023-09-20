@@ -1,0 +1,61 @@
+@media screen and (max-width: 600px) {
+  .principal h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+  .principal p {
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+  }
+  .partidos {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .fase ul li {
+    list-style: none;
+  }
+  .fase ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+  }
+  header h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .arg {
+    color: whitesmoke;
+  }
+  .arg div h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .arg div h2 .parra {
+    font-size: 15px;
+    margin-right: 3px;
+  }
+  p {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .holanda {
+    justify-content: center;
+  }
+  .holanda .hol1 {
+    margin-left: 10px;
+  }
+  .holanda .hol2 {
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=mq-vovil.css.map */

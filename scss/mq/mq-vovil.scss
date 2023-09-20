@@ -1,0 +1,96 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+@import"../utilidades/extend";
+
+//main index
+@media screen and (max-width:600px) {
+    .principal {
+        h1 {
+            color: $color-terciario;
+            font-size: 40px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+
+        p {
+            color: $color-terciario;
+            font-size: 10px;
+            text-align: center;
+        }
+    }
+
+    //header partidos 
+    .partidos {
+        color: $color-terciario;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    h2 {
+        color: $color-terciario;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    .fase {
+        ul {
+            li {
+                list-style: none;
+
+                a {
+                    text-decoration: none;
+                    color: $color-terciario;
+                    margin-left: 10px;
+                }
+            }
+        }
+
+    }
+
+    // arg-ara estadisticas
+    header {
+        h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+    }
+
+
+        .arg {
+            color: $color-terciario;
+    
+            div {
+                h2 {
+                    text-align: center;
+                    font-size: 15px;
+    
+                    .parra {
+                        font-size: 15px;
+                        margin-right: 3px;
+                    }
+    
+    
+                }
+            }
+        }
+
+    p {
+        text-align: center;
+        justify-content: space-between;
+    }
+
+
+    .holanda {
+        justify-content: center;
+
+        .hol1 {
+            margin-left: 10px;
+        }
+
+        .hol2 {
+            text-align: center;
+        }
+    }
+   
+
+}

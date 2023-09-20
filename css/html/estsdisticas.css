@@ -13,7 +13,7 @@
 
 /*estadisticas generales*/
 .estadistica {
-  color: whitesmoke;
+  color: brown;
   font-size: 80px;
 }
 
@@ -26,6 +26,9 @@
 .arg p {
   text-align: center;
   justify-content: space-between;
+}
+.arg .parra {
+  text-align: center;
 }
 
 .contenedorGol {

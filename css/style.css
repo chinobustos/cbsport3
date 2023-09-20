@@ -91,7 +91,7 @@ header {
 
 /*estadisticas generales*/
 .estadistica {
-  color: whitesmoke;
+  color: brown;
   font-size: 80px;
 }
 
@@ -104,6 +104,9 @@ header {
 .arg p {
   text-align: center;
   justify-content: space-between;
+}
+.arg .parra {
+  text-align: center;
 }
 
 .contenedorGol {
@@ -129,7 +132,6 @@ header {
 }
 
 .holanda {
-  display: flex;
   justify-content: center;
 }
 .holanda .hol1 {
@@ -184,10 +186,6 @@ header {
 .body6 {
   background-image: linear-gradient(rgba(43, 5, 5, 0.849), brown);
   background-attachment: fixed;
-}
-
-.parra {
-  text-align: center;
 }
 
 .holanda {
@@ -375,7 +373,185 @@ h2 {
 .fase ul li a {
   text-decoration: none;
   color: whitesmoke;
-  margin-left: 45rem;
+  margin-left: 36rem;
+}
+
+@media screen and (max-width: 600px) {
+  .principal h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+  .principal p {
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+  }
+  .partidos {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .fase ul li {
+    list-style: none;
+  }
+  .fase ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+  }
+  header h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .arg {
+    color: whitesmoke;
+  }
+  .arg div h2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .arg div h2 .parra {
+    font-size: 15px;
+    margin-right: 3px;
+  }
+  p {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .holanda {
+    justify-content: center;
+  }
+  .holanda .hol1 {
+    margin-left: 10px;
+  }
+  .holanda .hol2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .principal h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+  .principal p {
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+  }
+  .partidos {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+  }
+  h2 {
+    color: whitesmoke;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .fase ul li {
+    list-style: none;
+  }
+  .fase ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+  }
+  header h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .arg {
+    color: whitesmoke;
+  }
+  .arg div h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .arg div h2 .parra {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  p {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .holanda {
+    justify-content: center;
+  }
+  .holanda .hol1 {
+    margin-left: 10px;
+  }
+  .holanda .hol2 {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .principal h1 {
+    color: whitesmoke;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+  .principal p {
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+  }
+  .partidos {
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+  }
+  h2 {
+    color: whitesmoke;
+    font-size: 35px;
+    margin-left: 20px;
+  }
+  .fase ul li {
+    list-style: none;
+  }
+  .fase ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 10px;
+  }
+  header h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .arg {
+    color: whitesmoke;
+  }
+  .arg div h2 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .arg div h2 .parra {
+    font-size: 25px;
+    margin-right: 3px;
+  }
+  p {
+    text-align: center;
+    justify-content: space-between;
+  }
+  .holanda {
+    justify-content: center;
+  }
+  .holanda .hol1 {
+    margin-left: 10px;
+  }
+  .holanda .hol2 {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

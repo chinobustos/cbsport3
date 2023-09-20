@@ -15,7 +15,7 @@
 }
 /*estadisticas generales*/
 .estadistica {
-    color: $color-terciario;
+    color: $color-cuarto;
     font-size: 80px
 }
 .arg {
@@ -28,6 +28,9 @@
     p {
         text-align: center;
         justify-content: space-between;
+    }
+    .parra {
+        text-align: center;
     }
 }
 .contenedorGol {
