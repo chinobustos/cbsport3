@@ -56,6 +56,17 @@
   .holanda .hol2 {
     text-align: center;
   }
+  .polonia {
+    color: whitesmoke;
+  }
+  .polonia .pol1 {
+    margin-left: 155px;
+    font-size: 25px;
+  }
+  .polonia .pol2 {
+    margin-left: 155px;
+    font-size: 25px;
+  }
 }
 
 /*# sourceMappingURL=mq-desktop.css.map */
