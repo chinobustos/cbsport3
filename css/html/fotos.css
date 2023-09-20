@@ -3,18 +3,11 @@
 }
 
 .fot {
-  color: rgba(39, 37, 37, 0.7725490196);
+  color: whitesmoke;
 }
 
 .row img {
   width: 300px;
-}
-
-div :hover img {
-  background-color: rgba(0, 0, 0, 0.055);
-  transition: 0.5seg;
-  opacity: 0.5;
-  transition-delay: 0;
 }
 
 /*# sourceMappingURL=fotos.css.map */
