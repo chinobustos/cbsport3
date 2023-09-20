@@ -1,0 +1,7 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.body7{
+    background-image:linear-gradient($color-cuarto,$color-principal);
+    background-attachment: fixed;
+}

@@ -1,0 +1,57 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+//main index
+.principal{
+    h1{
+        color: $color-terciario;
+        font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+    p{
+    color: $color-terciario;
+    font-size: 20px;
+    text-align: center;
+    }
+}
+div {
+    .tituloForm {
+        text-decoration: underline;
+
+    }
+
+    .sloganForm {
+        color: black;
+
+    }
+
+    .fondoForm {
+        background-color: $color-cuarto;
+    }
+
+    .smallForm {
+        font-size: 20px;
+    }
+
+    .colorBtn {
+        background-color: $color-quinto;
+        color: black;
+        font-size: 1.5rem;
+        margin: 5px;
+
+        &:hover {
+            background-color: $color-cuarto;
+            color: black;
+        }
+    }
+}
+
+
+//main inicio
+.main2{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    
+}

@@ -1,0 +1,33 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.body6 {
+    background-image: linear-gradient($color-principal, $color-cuarto);
+    background-attachment: fixed;
+}
+
+//header
+.arg {
+    div {
+        h2 {
+            margin-right: 10px;
+            p {
+                margin-right: 70%;
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+.holanda {
+    display: flex;
+    justify-content: center;
+
+    .hol1 {
+        margin-left: 20px;
+    }
+
+    .hol2 {
+        margin-left: 20px;
+    }
+}

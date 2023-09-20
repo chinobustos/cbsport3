@@ -1,0 +1,25 @@
+.body6 {
+  background-image: linear-gradient(rgba(43, 5, 5, 0.849), brown);
+  background-attachment: fixed;
+}
+
+.arg div h2 {
+  margin-right: 10px;
+}
+.arg div h2 p {
+  margin-right: 70%;
+  font-size: 30px;
+}
+
+.holanda {
+  display: flex;
+  justify-content: center;
+}
+.holanda .hol1 {
+  margin-left: 20px;
+}
+.holanda .hol2 {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=arg-hol.css.map */

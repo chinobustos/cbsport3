@@ -1,0 +1,20 @@
+.body8 {
+  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
+  background-attachment: fixed;
+}
+
+.arg h2 p {
+  margin-right: 70%;
+}
+.arg .francia {
+  display: flex;
+  justify-content: center;
+}
+.arg .francia .fra1 {
+  margin-right: 20px;
+}
+.arg .francia .fra2 {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=arg-fra.css.map */

@@ -1,0 +1,34 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.argentina {
+    background-image:linear-gradient($color-cuarto,$color-principal); 
+    background-attachment: fixed;
+}
+.holanda {
+    display: flex;
+    justify-content: center;
+
+    .hol1 {
+        margin-left: 20px;
+    }
+
+    .hol2 {
+        margin-left: 20px;
+    }
+}
+.estadistica2 {
+    text-align: center;
+    position: relative;
+    left: 25%;
+    background-color: $color-quinto;
+    color: $color-terciario;
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+
+    .detalles {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,16 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.body3 {
+    background-image: linear-gradient($color-principal,$color-cuarto);
+    background-attachment: fixed;
+}
+.mex{
+    .mex1{
+        margin-right: 10%;
+    }
+    .mex2{
+        margin-right: 10%;
+    }
+
+}

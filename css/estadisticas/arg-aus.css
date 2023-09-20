@@ -1,0 +1,21 @@
+.body6 {
+  background-image: linear-gradient(rgba(43, 5, 5, 0.849), brown);
+  background-attachment: fixed;
+}
+
+.parra {
+  text-align: center;
+}
+
+.holanda {
+  display: flex;
+  justify-content: center;
+}
+.holanda .hol1 {
+  margin-left: 20px;
+}
+.holanda .hol2 {
+  margin-left: 20px;
+}
+
+/*# sourceMappingURL=arg-aus.css.map */

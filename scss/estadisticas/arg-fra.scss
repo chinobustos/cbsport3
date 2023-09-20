@@ -1,0 +1,25 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.body8{
+    background-image: linear-gradient($color-cuarto,$color-principal);
+    background-attachment: fixed;
+}
+
+.arg{
+    h2{
+        p{
+           margin-right: 70%;
+        }
+    }
+    .francia{
+        display: flex;
+        justify-content: center;
+        .fra1{
+            margin-right: 20px;
+        }
+        .fra2{
+            margin-left: 20px;
+        }
+    }
+}

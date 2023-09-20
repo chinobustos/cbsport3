@@ -1,0 +1,19 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+
+.body4 {
+    background-image: linear-gradient($color-cuarto,$color-principal);
+    background-attachment: fixed;
+
+}
+
+.polonia {
+    color: $color-terciario;
+    .pol1{
+        margin-left: 50%;
+    }
+    .pol2 {
+        margin-left: 50%;
+    }
+}

@@ -1,0 +1,32 @@
+.argentina {
+  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
+  background-attachment: fixed;
+}
+
+.holanda {
+  display: flex;
+  justify-content: center;
+}
+.holanda .hol1 {
+  margin-left: 20px;
+}
+.holanda .hol2 {
+  margin-left: 20px;
+}
+
+.estadistica2 {
+  text-align: center;
+  position: relative;
+  left: 25%;
+  background-color: rgba(39, 37, 37, 0.7725490196);
+  color: whitesmoke;
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+}
+.estadistica2 .detalles {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=arg-ara.css.map */

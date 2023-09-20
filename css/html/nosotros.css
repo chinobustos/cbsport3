@@ -1,0 +1,14 @@
+.body9 {
+  background-image: url(https://cnnespanol.cnn.com/wp-content/uploads/2022/12/GettyImages-1450110363.jpg?quality=100&strip=info);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.par1 {
+  text-align: left;
+  color: rgba(43, 5, 5, 0.849);
+  display: flex;
+}
+
+/*# sourceMappingURL=nosotros.css.map */

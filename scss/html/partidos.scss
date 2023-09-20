@@ -1,0 +1,11 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+@import"../utilidades/extend";
+
+//bloque body partidos
+
+.resultados1{
+  background-image: linear-gradient($color-principal, $color-cuarto);
+    background-attachment: fixed;
+    align-items: center;
+}

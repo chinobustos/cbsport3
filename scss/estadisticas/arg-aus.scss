@@ -1,0 +1,24 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+
+.body6 {
+    background-image: linear-gradient($color-principal, $color-cuarto);
+    background-attachment: fixed;
+}
+
+.parra {
+    text-align: center;
+}
+
+.holanda {
+    display: flex;
+    justify-content: center;
+
+    .hol1 {
+        margin-left: 20px;
+    }
+
+    .hol2 {
+        margin-left: 20px;
+    }
+}

@@ -1,0 +1,19 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+@import"../utilidades/extend";
+
+.bodyfotos{
+    background-color: $color-principal;
+}
+.fot{
+    color:$color-quinto;
+}
+.row img {
+    width: 300px;
+}
+ div :hover img{
+    background-color: rgba(0, 0, 0, 0.055);
+    transition: 0.5seg;
+    opacity: 0.5;
+    transition-delay: 0;
+}

@@ -1,0 +1,16 @@
+.body4 {
+  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
+  background-attachment: fixed;
+}
+
+.polonia {
+  color: whitesmoke;
+}
+.polonia .pol1 {
+  margin-left: 50%;
+}
+.polonia .pol2 {
+  margin-left: 50%;
+}
+
+/*# sourceMappingURL=pol-arg.css.map */

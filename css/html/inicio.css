@@ -1,0 +1,45 @@
+.body1 {
+  background-image: linear-gradient(rgba(43, 5, 5, 0.849), brown);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container h1 {
+  color: whitesmoke;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+.container h2 {
+  display: inline;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 30px;
+  margin-left: 100px;
+  margin-top: 15%;
+}
+
+/*NAV*/
+.fuentesNav {
+  font-size: 1.4rem;
+  padding-left: 3rem;
+  margin-bottom: 0;
+}
+.fuentesNav li {
+  margin-top: 5%;
+  margin-left: 100px;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.fuentesNav li a {
+  color: aliceblue;
+  align-items: center;
+}
+
+header {
+  color: whitesmoke;
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=inicio.css.map */
