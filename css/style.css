@@ -1,5 +1,7 @@
 .body {
-  background-image: linear-gradient(rgb(138, 15, 15), rgba(0, 0, 0, 0.822));
+  background-image: url(https://64.media.tumblr.com/e397f20cfa9372791d538684e2bcbb1f/042f36c25a0e0f00-56/s540x810/379baca5607cdde699dccd32d25a89bf1c90f267.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -24,6 +26,18 @@ div .colorBtn {
 div .colorBtn:hover {
   background-color: brown;
   color: black;
+}
+
+.principal h1 {
+  color: rgba(39, 37, 37, 0.7725490196);
+  font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+.principal p {
+  color: whitesmoke;
+  font-size: 20px;
+  text-align: center;
 }
 
 .body1 {
@@ -102,13 +116,16 @@ main h1 {
 
 .arg {
   color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .arg .arg h2 {
   text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .arg p {
   text-align: center;
   justify-content: space-between;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .arg .parra {
   text-align: center;
@@ -286,7 +303,7 @@ main h1 {
 }
 
 .principal h1 {
-  color: whitesmoke;
+  color: rgba(39, 37, 37, 0.7725490196);
   font-size: 80px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
@@ -325,6 +342,17 @@ div .colorBtn:hover {
   text-align: center;
   font-size: 30px;
   margin-top: 30px;
+}
+
+article {
+  text-align: center;
+}
+article h2 {
+  color: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+article p {
+  color: whitesmoke;
 }
 
 header h1 {
@@ -443,6 +471,22 @@ h2 {
     margin-left: 100px;
     font-size: 10px;
   }
+  article {
+    text-align: center;
+  }
+  article h2 {
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 15px;
+  }
+  article p {
+    color: whitesmoke;
+    font-size: 10px;
+  }
+  article img {
+    width: 200px;
+    height: 180px;
+  }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
   .principal h1 {
@@ -513,6 +557,22 @@ h2 {
     margin-right: 30px;
     font-size: 20px;
   }
+  article {
+    text-align: center;
+  }
+  article h2 {
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 25px;
+  }
+  article p {
+    color: whitesmoke;
+    font-size: 20px;
+  }
+  article img {
+    width: 250px;
+    height: 300px;
+  }
 }
 @media screen and (min-width: 1201px) {
   .principal h1 {
@@ -523,7 +583,7 @@ h2 {
   }
   .principal p {
     color: whitesmoke;
-    font-size: 10px;
+    font-size: 30px;
     text-align: center;
   }
   .partidos {
@@ -577,11 +637,25 @@ h2 {
   }
   .polonia .pol1 {
     margin-left: 155px;
-    font-size: 25px;
+    font-size: 20px;
   }
   .polonia .pol2 {
     margin-left: 155px;
-    font-size: 25px;
+    font-size: 20px;
+  }
+  article {
+    text-align: center;
+  }
+  article h2 {
+    color: whitesmoke;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  article p {
+    color: whitesmoke;
+  }
+  article img {
+    width: 300px;
+    height: 350px;
   }
 }
 

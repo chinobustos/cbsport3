@@ -2,9 +2,10 @@
 @import"../utilidades/mixin";
 
 .argentina {
-    background-image:linear-gradient($color-cuarto,$color-principal); 
+    background-image: linear-gradient($color-cuarto, $color-principal);
     background-attachment: fixed;
 }
+
 .holanda {
     justify-content: center;
 
@@ -16,6 +17,7 @@
         margin-left: 20px;
     }
 }
+
 .estadistica2 {
     text-align: center;
     position: relative;

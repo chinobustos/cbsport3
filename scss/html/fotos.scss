@@ -2,12 +2,14 @@
 @import"../utilidades/mixin";
 @import"../utilidades/extend";
 
-.bodyfotos{
+.bodyfotos {
     background-color: $color-principal;
 }
-.fot{
-    color:$color-terciario;
+
+.fot {
+    color: $color-terciario;
 }
+
 .row img {
     width: 300px;
 }

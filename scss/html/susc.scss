@@ -1,0 +1,58 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+@import"../utilidades/extend";
+
+.body {
+      background-image: url(https://64.media.tumblr.com/e397f20cfa9372791d538684e2bcbb1f/042f36c25a0e0f00-56/s540x810/379baca5607cdde699dccd32d25a89bf1c90f267.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+
+}
+
+div {
+    .tituloForm {
+        text-decoration: underline;
+
+    }
+
+    .sloganForm {
+        color: black;
+
+    }
+
+    .fondoForm {
+        background-color: $color-cuarto;
+    }
+
+    .smallForm {
+        font-size: 20px;
+    }
+
+    .colorBtn {
+        background-color: $color-quinto;
+        color: black;
+        font-size: 1.5rem;
+        margin: 5px;
+
+        &:hover {
+            background-color: $color-cuarto;
+            color: black;
+        }
+    }
+}
+.principal {
+    h1 {
+        color: $color-quinto;
+        font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+
+    p {
+        color: $color-terciario;
+        font-size: 20px;
+        text-align: center;
+    }
+}

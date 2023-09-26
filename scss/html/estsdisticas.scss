@@ -1,16 +1,19 @@
 @import"../utilidades/variables";
 @import"../utilidades/mixin";
 @import "../utilidades/extend";
+
 .bodyes {
     background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(255, 0, 0, 0.788));
-    
+
 }
-main{
-    h1{
+
+main {
+    h1 {
         color: $color-terciario;
-       font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
+
 .row {
     border-radius: 10px;
     width: 100%;
@@ -19,33 +22,42 @@ main{
     margin-top: 5px;
     margin-right: 5px;
 }
+
 /*estadisticas generales*/
 .estadistica {
     color: $color-cuarto;
     font-size: 80px
 }
+
 .arg {
     color: $color-terciario;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
     .arg h2 {
         text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     p {
         text-align: center;
         justify-content: space-between;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
+
     .parra {
         text-align: center;
     }
 }
+
 .contenedorGol {
     display: flex;
     justify-content: center;
 }
+
 .gol {
     margin-left: 40px;
 }
+
 .FOR {
     font-size: 80px;
     color: $color-terciario;
@@ -54,8 +66,3 @@ main{
     right: 50%;
 
 }
-
-
-
-
-

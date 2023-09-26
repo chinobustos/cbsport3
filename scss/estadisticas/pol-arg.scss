@@ -3,16 +3,18 @@
 
 
 .body4 {
-    background-image: linear-gradient($color-cuarto,$color-principal);
+    background-image: linear-gradient($color-cuarto, $color-principal);
     background-attachment: fixed;
 
 }
 
 .polonia {
     color: $color-terciario;
-    .pol1{
-       margin-left: 150px;
+
+    .pol1 {
+        margin-left: 150px;
     }
+
     .pol2 {
         margin-left: 150px;
     }
