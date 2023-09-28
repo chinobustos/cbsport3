@@ -1,82 +1,51 @@
-.body {
-  background-image: url(https://64.media.tumblr.com/e397f20cfa9372791d538684e2bcbb1f/042f36c25a0e0f00-56/s540x810/379baca5607cdde699dccd32d25a89bf1c90f267.png);
+body {
+  background-color: rgb(87, 82, 82);
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 
-div .tituloForm {
+iv {
+  color: rgba(43, 5, 5, 0.849);
+}
+iv .tituloForm {
   text-decoration: underline;
 }
-div .sloganForm {
+iv .sloganForm {
   color: black;
 }
-div .fondoForm {
+iv .fondoForm {
   background-color: brown;
 }
-div .smallForm {
+iv .smallForm {
   font-size: 20px;
 }
-div .colorBtn {
+iv .colorBtn {
   background-color: rgba(39, 37, 37, 0.7725490196);
   color: black;
   font-size: 1.5rem;
   margin: 5px;
 }
-div .colorBtn:hover {
+iv .colorBtn:hover {
   background-color: brown;
   color: black;
 }
 
-.principal h1 {
-  color: rgba(39, 37, 37, 0.7725490196);
-  font-size: 80px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-align: center;
-}
-.principal p {
-  color: whitesmoke;
-  font-size: 20px;
-  text-align: center;
-}
-
 .body1 {
-  background-image: linear-gradient(rgba(43, 5, 5, 0.849), brown);
+  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .container h1 {
-  color: whitesmoke;
-  text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 60px;
-}
-.container h2 {
-  display: inline;
-  color: whitesmoke;
-  text-align: center;
-  font-size: 30px;
-  margin-left: 100px;
-  margin-top: 15%;
-}
-
-/*NAV*/
-.fuentesNav {
-  font-size: 1.4rem;
-  padding-left: 3rem;
-  margin-bottom: 0;
-}
-.fuentesNav li {
-  margin-top: 5%;
-  margin-left: 100px;
-  align-items: center;
+  font-size: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
 }
-.fuentesNav li a {
-  color: aliceblue;
-  align-items: center;
+.container nav a {
+  font-size: 23px;
+  margin-left: 20px;
+  margin-right: 150px;
 }
 
 header {
@@ -303,13 +272,13 @@ main h1 {
 }
 
 .principal h1 {
-  color: rgba(39, 37, 37, 0.7725490196);
-  font-size: 80px;
+  color: brown;
+  font-size: 30px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
 }
-.principal p {
-  color: whitesmoke;
+.principal h2 {
+  color: rgba(39, 37, 37, 0.7725490196);
   font-size: 20px;
   text-align: center;
 }
@@ -403,6 +372,31 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+  .container h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
+  }
+  .fuentesNav {
+    font-size: 10px;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .fuentesNav li {
+    margin-top: 3%;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .fuentesNav li a {
+    color: aliceblue;
+    margin-left: 10px;
+  }
+  header {
+    color: whitesmoke;
+    margin-bottom: 0;
+  }
   .principal h1 {
     color: whitesmoke;
     font-size: 40px;
@@ -489,6 +483,30 @@ h2 {
   }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
+  .container h1 {
+    font-size: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
+  }
+  .fuentesNav {
+    margin-left: 300px;
+    font-size: 20px;
+    padding-left: 3rem;
+    margin-bottom: 0;
+  }
+  .fuentesNav li {
+    margin-top: 3%;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .fuentesNav li a {
+    color: aliceblue;
+    margin-left: 30px;
+  }
+  header {
+    color: whitesmoke;
+    margin-bottom: 0;
+  }
   .principal h1 {
     color: whitesmoke;
     font-size: 60px;
@@ -574,17 +592,67 @@ h2 {
     height: 300px;
   }
 }
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
+  .container h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
+  }
+  .fuentesNav {
+    margin-left: 300px;
+    font-size: 25px;
+    padding-left: 3rem;
+    margin-bottom: 0;
+  }
+  .fuentesNav li {
+    margin-top: 3%;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .fuentesNav li a {
+    color: aliceblue;
+    margin-left: 30px;
+  }
+  header {
+    color: whitesmoke;
+    margin-bottom: 0;
+  }
   .principal h1 {
     color: whitesmoke;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-align: center;
   }
-  .principal p {
+  .principal h2 {
     color: whitesmoke;
     font-size: 30px;
     text-align: center;
+  }
+  .principal iv {
+    color: rgba(43, 5, 5, 0.849);
+  }
+  .principal iv .tituloForm {
+    text-decoration: underline;
+  }
+  .principal iv .sloganForm {
+    color: black;
+  }
+  .principal iv .fondoForm {
+    background-color: brown;
+  }
+  .principal iv .smallForm {
+    font-size: 15px;
+  }
+  .principal iv .colorBtn {
+    background-color: rgba(39, 37, 37, 0.7725490196);
+    color: black;
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+  .principal iv .colorBtn:hover {
+    background-color: brown;
+    color: black;
   }
   .partidos {
     color: whitesmoke;
@@ -594,7 +662,7 @@ h2 {
   h2 {
     color: whitesmoke;
     font-size: 35px;
-    margin-left: 20px;
+    align-items: center;
   }
   .fase ul li {
     list-style: none;
@@ -602,58 +670,57 @@ h2 {
   .fase ul li a {
     text-decoration: none;
     color: whitesmoke;
-    margin-left: 10px;
   }
-  header h1 {
+  .fase header h1 {
     font-size: 40px;
     text-align: center;
   }
-  .arg {
+  .fase .arg {
     color: whitesmoke;
   }
-  .arg div h2 {
+  .fase .arg div h2 {
     text-align: center;
     font-size: 35px;
   }
-  .arg div h2 .parra {
+  .fase .arg div h2 .parra {
     font-size: 25px;
     margin-right: 3px;
   }
-  p {
+  .fase p {
     text-align: center;
     justify-content: space-between;
   }
-  .holanda {
+  .fase .holanda {
     justify-content: center;
   }
-  .holanda .hol1 {
+  .fase .holanda .hol1 {
     margin-left: 10px;
   }
-  .holanda .hol2 {
+  .fase .holanda .hol2 {
     text-align: center;
   }
-  .polonia {
+  .fase .polonia {
     color: whitesmoke;
   }
-  .polonia .pol1 {
+  .fase .polonia .pol1 {
     margin-left: 155px;
     font-size: 20px;
   }
-  .polonia .pol2 {
+  .fase .polonia .pol2 {
     margin-left: 155px;
     font-size: 20px;
   }
-  article {
+  .fase article {
     text-align: center;
   }
-  article h2 {
+  .fase article h2 {
     color: whitesmoke;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
-  article p {
+  .fase article p {
     color: whitesmoke;
   }
-  article img {
+  .fase article img {
     width: 300px;
     height: 350px;
   }

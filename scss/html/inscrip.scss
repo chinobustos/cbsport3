@@ -1,0 +1,41 @@
+@import"../utilidades/variables";
+@import"../utilidades/mixin";
+@import"../utilidades/extend";
+
+body{
+   background-color: rgb(87, 82, 82);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+iv {
+    color: $color-principal;
+    .tituloForm {
+        text-decoration: underline;
+
+    }
+
+    .sloganForm {
+        color: black;
+
+    }
+
+    .fondoForm {
+        background-color: $color-cuarto;
+    }
+
+    .smallForm {
+        font-size: 20px;
+    }
+
+    .colorBtn {
+        background-color: $color-quinto;
+        color: black;
+        font-size: 1.5rem;
+        margin: 5px;
+
+        &:hover {
+            background-color: $color-cuarto;
+            color: black;
+        }
+    }
+}

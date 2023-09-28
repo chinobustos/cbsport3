@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(87, 82, 82);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+iv {
+  color: rgba(43, 5, 5, 0.849);
+}
+iv .tituloForm {
+  text-decoration: underline;
+}
+iv .sloganForm {
+  color: black;
+}
+iv .fondoForm {
+  background-color: brown;
+}
+iv .smallForm {
+  font-size: 20px;
+}
+iv .colorBtn {
+  background-color: rgba(39, 37, 37, 0.7725490196);
+  color: black;
+  font-size: 1.5rem;
+  margin: 5px;
+}
+iv .colorBtn:hover {
+  background-color: brown;
+  color: black;
+}
+
+/*# sourceMappingURL=inscrip.css.map */

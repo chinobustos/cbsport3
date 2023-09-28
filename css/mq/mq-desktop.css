@@ -1,14 +1,64 @@
-@media screen and (min-width: 1201px) {
+@media screen and (min-width: 1200px) {
+  .container h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin-top: 20px;
+  }
+  .fuentesNav {
+    margin-left: 300px;
+    font-size: 25px;
+    padding-left: 3rem;
+    margin-bottom: 0;
+  }
+  .fuentesNav li {
+    margin-top: 3%;
+    align-items: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .fuentesNav li a {
+    color: aliceblue;
+    margin-left: 30px;
+  }
+  header {
+    color: whitesmoke;
+    margin-bottom: 0;
+  }
   .principal h1 {
     color: whitesmoke;
     font-size: 60px;
     font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
     text-align: center;
   }
-  .principal p {
+  .principal h2 {
     color: whitesmoke;
     font-size: 30px;
     text-align: center;
+  }
+  .principal iv {
+    color: rgba(43, 5, 5, 0.849);
+  }
+  .principal iv .tituloForm {
+    text-decoration: underline;
+  }
+  .principal iv .sloganForm {
+    color: black;
+  }
+  .principal iv .fondoForm {
+    background-color: brown;
+  }
+  .principal iv .smallForm {
+    font-size: 15px;
+  }
+  .principal iv .colorBtn {
+    background-color: rgba(39, 37, 37, 0.7725490196);
+    color: black;
+    font-size: 1.5rem;
+    margin: 5px;
+  }
+  .principal iv .colorBtn:hover {
+    background-color: brown;
+    color: black;
   }
   .partidos {
     color: whitesmoke;
@@ -18,7 +68,7 @@
   h2 {
     color: whitesmoke;
     font-size: 35px;
-    margin-left: 20px;
+    align-items: center;
   }
   .fase ul li {
     list-style: none;
@@ -26,58 +76,57 @@
   .fase ul li a {
     text-decoration: none;
     color: whitesmoke;
-    margin-left: 10px;
   }
-  header h1 {
+  .fase header h1 {
     font-size: 40px;
     text-align: center;
   }
-  .arg {
+  .fase .arg {
     color: whitesmoke;
   }
-  .arg div h2 {
+  .fase .arg div h2 {
     text-align: center;
     font-size: 35px;
   }
-  .arg div h2 .parra {
+  .fase .arg div h2 .parra {
     font-size: 25px;
     margin-right: 3px;
   }
-  p {
+  .fase p {
     text-align: center;
     justify-content: space-between;
   }
-  .holanda {
+  .fase .holanda {
     justify-content: center;
   }
-  .holanda .hol1 {
+  .fase .holanda .hol1 {
     margin-left: 10px;
   }
-  .holanda .hol2 {
+  .fase .holanda .hol2 {
     text-align: center;
   }
-  .polonia {
+  .fase .polonia {
     color: whitesmoke;
   }
-  .polonia .pol1 {
+  .fase .polonia .pol1 {
     margin-left: 155px;
     font-size: 20px;
   }
-  .polonia .pol2 {
+  .fase .polonia .pol2 {
     margin-left: 155px;
     font-size: 20px;
   }
-  article {
+  .fase article {
     text-align: center;
   }
-  article h2 {
+  .fase article h2 {
     color: whitesmoke;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
-  article p {
+  .fase article p {
     color: whitesmoke;
   }
-  article img {
+  .fase article img {
     width: 300px;
     height: 350px;
   }
