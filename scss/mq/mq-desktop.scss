@@ -92,25 +92,41 @@
         text-align: center;
     }
 
+    // main partidos
+    main{
     h2 {
         color: $color-terciario;
         font-size: 35px;
-        align-items: center;
-    }
-
-    .fase {
-        ul {
-            li {
-                list-style: none;
-
-                a {
-                    text-decoration: none;
-                    color: $color-terciario;
-                   
+        display: flex;
+        
+      }
+    .card{
+        background-color: $color-quinto;
+        div{
+            h5{
+                color: $color-terciario;
+                font-size: 30px;
+                text-align: center;
             }
-        }
+            p{
+                color: $color-terciario;
+                font-size: 20px;
+                text-align: center;
+            }
+            a{
+                margin-left: 550px;
+                color: $color-terciario;
+                text-decoration: none;
+                font-size: 20px;
+                background-color: $color-principal;
+                border-style: outset
+            }
+        }  
+    
 
-    }
+    }    
+
+}
 
     // arg-ara estadisticas
     header {
@@ -193,5 +209,4 @@
     }
 
 
-}
 }

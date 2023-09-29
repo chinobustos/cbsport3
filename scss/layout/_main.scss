@@ -59,6 +59,42 @@ div {
 
 }
 
+
+// main partidos
+main{
+    h2 {
+        color: $color-terciario;
+        font-size: 35px;
+        display: flex;
+        
+      }
+    .card{
+        background-color: $color-quinto;
+        div{
+            h5{
+                color: $color-terciario;
+                font-size: 30px;
+                text-align: center;
+            }
+            p{
+                color: $color-terciario;
+                font-size: 20px;
+                text-align: center;
+            }
+            a{
+                margin-left: 850px;
+                color: $color-terciario;
+                text-decoration: none;
+                font-size: 20px;
+                background-color: $color-principal;
+                border-style: outset
+            }
+        }  
+    
+
+    }    
+
+}
 //main (article) estadisticas
 article {
     text-align: center;

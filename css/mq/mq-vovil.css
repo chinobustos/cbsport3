@@ -45,23 +45,41 @@
     font-size: 25px;
     margin-left: 20px;
   }
-  .fase ul li {
-    list-style: none;
-  }
-  .fase ul li a {
-    text-decoration: none;
+  main h2 {
     color: whitesmoke;
-    margin-left: 10px;
+    font-size: 20px;
+    display: flex;
+  }
+  main .card {
+    background-color: rgba(39, 37, 37, 0.7725490196);
+  }
+  main .card div h5 {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+  }
+  main .card div p {
+    color: whitesmoke;
+    font-size: 15px;
+    text-align: center;
+  }
+  main .card div a {
+    margin-left: 6.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 10px;
+    background-color: rgba(43, 5, 5, 0.849);
+    border-style: outset;
   }
   header h1 {
     font-size: 30px;
-    text-align: center;
+    margin-left: 20px;
   }
   .arg {
     color: whitesmoke;
   }
   .arg div h2 {
-    text-align: center;
+    margin-left: 20px;
     font-size: 15px;
   }
   .arg div h2 .parra {

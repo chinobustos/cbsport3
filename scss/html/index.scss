@@ -11,24 +11,23 @@
 
 }
 
-.container{
-    h1{
+.container {
+    h1 {
         font-size: 80px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         margin-top: 20px;
     }
-    nav{
-        a{
-            font-size: 23px;
-            margin-left: 20px;
-            margin-right: 150px;
-        }
+    
+}
+
+.fuentesNav { 
+    
+    a {
+        font-size: 23px;
+        margin-left: 20px;
+        margin-right: 150px;
+        margin-top: 60px
     }
 }
 
 
-
-header {
-    color: $color-terciario;
-    margin-bottom: 0;
-}
