@@ -2,13 +2,15 @@
 @import"../utilidades/mixin";
 @import"../utilidades/extend";
 
-body{
-   background-color: rgb(87, 82, 82);
-   background-repeat: no-repeat;
-   background-size: cover;
+body {
+    background-color: rgb(87, 82, 82);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-iv {
+
+div{
     color: $color-principal;
+
     .tituloForm {
         text-decoration: underline;
 

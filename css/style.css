@@ -4,28 +4,28 @@ body {
   background-size: cover;
 }
 
-iv {
+div {
   color: rgba(43, 5, 5, 0.849);
 }
-iv .tituloForm {
+div .tituloForm {
   text-decoration: underline;
 }
-iv .sloganForm {
+div .sloganForm {
   color: black;
 }
-iv .fondoForm {
+div .fondoForm {
   background-color: brown;
 }
-iv .smallForm {
+div .smallForm {
   font-size: 20px;
 }
-iv .colorBtn {
+div .colorBtn {
   background-color: rgba(39, 37, 37, 0.7725490196);
   color: black;
   font-size: 1.5rem;
   margin: 5px;
 }
-iv .colorBtn:hover {
+div .colorBtn:hover {
   background-color: brown;
   color: black;
 }
@@ -41,13 +41,13 @@ iv .colorBtn:hover {
   font-size: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 20px;
+  color: whitesmoke;
 }
 
-.fuentesNav a {
-  font-size: 23px;
-  margin-left: 20px;
+.fuentesNav li a {
+  margin-left: 50px;
   margin-right: 150px;
-  margin-top: 60px;
+  color: whitesmoke;
 }
 
 .resultados1 {
@@ -57,24 +57,34 @@ iv .colorBtn:hover {
 }
 
 .bodyes {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(255, 0, 0, 0.788));
-}
-
-main h1 {
-  color: whitesmoke;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
 }
 
 .row {
   border-radius: 10px;
   width: 100%;
   height: 90%;
-  padding: 10px;
-  margin-top: 5px;
-  margin-right: 5px;
+  padding: 25px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.row .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 100px;
+  height: 380px;
+}
+.row .card img {
+  width: 320px;
 }
 
-/*estadisticas generales*/
+/*estadisticas listado*/
 .estadistica {
   color: brown;
   font-size: 80px;
@@ -310,33 +320,6 @@ div .colorBtn:hover {
   margin-top: 30px;
 }
 
-main h2 {
-  color: whitesmoke;
-  font-size: 35px;
-  display: flex;
-}
-main .card {
-  background-color: rgba(39, 37, 37, 0.7725490196);
-}
-main .card div h5 {
-  color: whitesmoke;
-  font-size: 30px;
-  text-align: center;
-}
-main .card div p {
-  color: whitesmoke;
-  font-size: 20px;
-  text-align: center;
-}
-main .card div a {
-  margin-left: 850px;
-  color: whitesmoke;
-  text-decoration: none;
-  font-size: 20px;
-  background-color: rgba(43, 5, 5, 0.849);
-  border-style: outset;
-}
-
 article {
   text-align: center;
 }
@@ -375,24 +358,15 @@ header h1 {
   font-size: 20px;
 }
 
-.partidos {
+.partidos h1 {
   color: whitesmoke;
   font-size: 80px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-h2 {
-  color: whitesmoke;
-  font-size: 35px;
-  margin-left: 40%;
-}
-
-.fase ul li {
-  list-style: none;
-}
-.fase ul li a {
-  text-decoration: none;
-  color: whitesmoke;
-  margin-left: 36rem;
+.esta h1 {
+  font-size: 80px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -446,27 +420,6 @@ h2 {
     color: whitesmoke;
     font-size: 20px;
     display: flex;
-  }
-  main .card {
-    background-color: rgba(39, 37, 37, 0.7725490196);
-  }
-  main .card div h5 {
-    color: whitesmoke;
-    font-size: 15px;
-    text-align: center;
-  }
-  main .card div p {
-    color: whitesmoke;
-    font-size: 15px;
-    text-align: center;
-  }
-  main .card div a {
-    margin-left: 6.5rem;
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 10px;
-    background-color: rgba(43, 5, 5, 0.849);
-    border-style: outset;
   }
   header h1 {
     font-size: 30px;
@@ -574,27 +527,6 @@ h2 {
     color: whitesmoke;
     font-size: 30px;
     display: flex;
-  }
-  main .card {
-    background-color: rgba(39, 37, 37, 0.7725490196);
-  }
-  main .card div h5 {
-    color: whitesmoke;
-    font-size: 25px;
-    text-align: center;
-  }
-  main .card div p {
-    color: whitesmoke;
-    font-size: 15px;
-    text-align: center;
-  }
-  main .card div a {
-    margin-left: 350px;
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 15px;
-    background-color: rgba(43, 5, 5, 0.849);
-    border-style: outset;
   }
   header h1 {
     font-size: 40px;
@@ -718,32 +650,6 @@ h2 {
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
-  }
-  main h2 {
-    color: whitesmoke;
-    font-size: 35px;
-    display: flex;
-  }
-  main .card {
-    background-color: rgba(39, 37, 37, 0.7725490196);
-  }
-  main .card div h5 {
-    color: whitesmoke;
-    font-size: 30px;
-    text-align: center;
-  }
-  main .card div p {
-    color: whitesmoke;
-    font-size: 20px;
-    text-align: center;
-  }
-  main .card div a {
-    margin-left: 550px;
-    color: whitesmoke;
-    text-decoration: none;
-    font-size: 20px;
-    background-color: rgba(43, 5, 5, 0.849);
-    border-style: outset;
   }
   header h1 {
     font-size: 40px;

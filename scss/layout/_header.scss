@@ -40,28 +40,21 @@ header {
 
 //header partidos
 .partidos {
-  color: $color-terciario;
-  font-size: 80px;
-
-}
-
-h2 {
-  color: $color-terciario;
-  font-size: 35px;
-  margin-left: 40%;
-}
-
-.fase {
-  ul {
-    li {
-      list-style: none;
-
-      a {
-        text-decoration: none;
-        color: $color-terciario;
-        margin-left: 36rem;
-      }
-    }
+  h1{
+    color: $color-terciario;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
+  
 
+}
+
+
+
+//header estadisticas
+.esta{
+  h1{
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
 }

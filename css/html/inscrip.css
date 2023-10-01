@@ -4,28 +4,28 @@ body {
   background-size: cover;
 }
 
-iv {
+div {
   color: rgba(43, 5, 5, 0.849);
 }
-iv .tituloForm {
+div .tituloForm {
   text-decoration: underline;
 }
-iv .sloganForm {
+div .sloganForm {
   color: black;
 }
-iv .fondoForm {
+div .fondoForm {
   background-color: brown;
 }
-iv .smallForm {
+div .smallForm {
   font-size: 20px;
 }
-iv .colorBtn {
+div .colorBtn {
   background-color: rgba(39, 37, 37, 0.7725490196);
   color: black;
   font-size: 1.5rem;
   margin: 5px;
 }
-iv .colorBtn:hover {
+div .colorBtn:hover {
   background-color: brown;
   color: black;
 }

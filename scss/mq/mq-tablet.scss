@@ -3,36 +3,39 @@
 @import"../utilidades/extend";
 
 @media screen and (min-width:601px) and (max-width:1200px) {
-// index
-//inicio 
-.container{
-    h1{
-        font-size: 50px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        margin-top: 20px;
-    }
-}
-.fuentesNav {
-    margin-left: 300px;
-    font-size: 20px;
-    padding-left: 3rem;
-    margin-bottom: 0;
-    li {
-        margin-top: 3%;
-        align-items: center;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-        a {
-            color: aliceblue;
-            margin-left: 30px;
+    // index
+    //inicio 
+    .container {
+        h1 {
+            font-size: 50px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-top: 20px;
         }
     }
-}
 
-header {
-    color: $color-terciario;
-    margin-bottom: 0;
-}
+    .fuentesNav {
+        margin-left: 300px;
+        font-size: 20px;
+        padding-left: 3rem;
+        margin-bottom: 0;
+
+        li {
+            margin-top: 3%;
+            align-items: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+            a {
+                color: aliceblue;
+                margin-left: 30px;
+            }
+        }
+    }
+
+    header {
+        color: $color-terciario;
+        margin-bottom: 0;
+    }
 
 
 
@@ -67,40 +70,14 @@ header {
     }
 
     // main partidos
-main{
-    h2 {
-        color: $color-terciario;
-        font-size: 30px;
-        display: flex;
-        
-      }
-    .card{
-        background-color: $color-quinto;
-        div{
-            h5{
-                color: $color-terciario;
-                font-size: 25px;
-                text-align: center;
-            }
-            p{
-                color: $color-terciario;
-                font-size: 15px;
-                text-align: center;
-            }
-            a{
-                margin-left: 350px;
-                color: $color-terciario;
-                text-decoration: none;
-                font-size: 15px;
-                background-color: $color-principal;
-                border-style: outset
-            }
-        }  
-    
+    main {
+        h2 {
+            color: $color-terciario;
+            font-size: 30px;
+            display: flex;
 
-    }    
-
-}
+        }
+    }
 
     // arg-ara estadisticas
     header {
