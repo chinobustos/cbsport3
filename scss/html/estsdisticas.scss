@@ -3,11 +3,11 @@
 @import "../utilidades/extend";
 
 .bodyes {
-    background-image: linear-gradient($color-cuarto, $color-principal);
+    background-color: rgba(4, 15, 15, 0.637);
 
 }
 
-.row {
+/*.row {
     border-radius: 10px;
     width: 100%;
     height: 90%;
@@ -17,39 +17,43 @@
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: center;*/
 
     .card {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-        margin-left: 100px;
+        margin-right: 5%;
         height: 380px;
 
         img {
-            width: 320px
+            width: 100px
         }
     }
 
-}
+
 
 /*estadisticas listado*/
-.estadistica2 {
-    color: $color-cuarto;
-    font-size: 20px;
-    h3{
-        color: $color-terciario;
-    }
-    .skills{
-        .detalles{
-            span{
-                color: $color-terciario;
-            }
+div{
+    .estadistica2 {
+        color: $color-cuarto;
+        font-size: 20px;
+        h3{
+            color: $color-terciario;
         }
-
+        .skills{
+            .detalles{
+                span{
+                    color: $color-terciario;
+                }
+            }
+    
+        }
     }
+
 }
+
 
 
 
@@ -96,7 +100,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 
 
 }

@@ -15,22 +15,24 @@
         }
     }
 
-    .fuentesNav {
-        font-size: 10px;
-        padding-left: 3rem;
-        margin-bottom: 0;
-        text-align: center;
-
-        li {
-            margin-top: 3%;
-            align-items: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-            a {
-                color: aliceblue;
-                margin-left: 10px;
+    main {
+        div{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            h2 {
+                font-size: 15px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-bottom: 5rem;
+                margin-top: 7rem;
+                color: rgba(168, 157, 157, 0.781);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
+    
         }
+        
+    
     }
 
     header {
@@ -82,28 +84,37 @@
 
 
     }
+
     /*estadisticas listado*/
-.estadistica2 {
-    color: $color-cuarto;
-    font-size: 20px;
-    h3{
-        color: $color-terciario;
-    }
-    .skills{
-        .detalles{
-            span{
-                color: $color-terciario;
-            }
+    .estadistica2 {
+        color: $color-cuarto;
+        font-size: 10px;
+        width: 200px;
+        margin-right: 10%;
+
+
+        h3 {
+            color: $color-terciario;
         }
 
+        .skills {
+            .detalles {
+                span {
+                    color: $color-terciario;
+                }
+            }
+
+        }
     }
-}
 
     // arg-ara estadisticas
-    header {
-        h1 {
-            font-size: 30px;
-            margin-left: 20px;
+    .esta{
+        h1{
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
     }
 
@@ -113,7 +124,7 @@
 
         div {
             h2 {
-                margin-left: 20px;
+                text-align: center;
                 font-size: 25px;
                 color: $color-terciario;
 
@@ -159,15 +170,14 @@
         }
     }
 
-        main {
-            .tarjeta {
-                width: 350px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin: 20px;
-                width: 270px;
-            }
+    main {
+        .tarjeta {
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
         }
+    }
 }

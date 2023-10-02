@@ -1,21 +1,37 @@
 .body1 {
-  background-image: linear-gradient(brown, rgba(43, 5, 5, 0.849));
+  background-image: linear-gradient(rgba(240, 9, 9, 0.877), rgba(7, 6, 6, 0.884));
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.container h1 {
+header h1 {
   font-size: 80px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 20px;
   color: whitesmoke;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+header h1 nav .fuentesNav li .nav-link {
+  color: white;
 }
 
-.fuentesNav li a {
-  margin-left: 50px;
-  margin-right: 150px;
-  color: whitesmoke;
+main div {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main div h2 {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-bottom: 10rem;
+  margin-top: 7rem;
+  color: rgba(168, 157, 157, 0.781);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */

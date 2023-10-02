@@ -8,28 +8,30 @@
     //inicio 
     .container {
         h1 {
-            font-size: 50px;
+            font-size: 30px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             margin-top: 20px;
+            margin-left: 10px;
         }
     }
-
-    .fuentesNav {
-        margin-left: 300px;
-        font-size: 20px;
-        padding-left: 3rem;
-        margin-bottom: 0;
-
-        li {
-            margin-top: 3%;
-            align-items: center;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-            a {
-                color: aliceblue;
-                margin-left: 30px;
+    main {
+        div{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            h2 {
+                font-size: 30px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-bottom: 10rem;
+                margin-top: 7rem;
+                color: rgba(168, 157, 157, 0.781);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
             }
+    
         }
+        
+    
     }
 
     header {
@@ -80,29 +82,35 @@
     }
 
     //estadisticas listado
-    .estadistica2 {
-        width: 500px;
-        color: $color-cuarto;
-        font-size: 20px;
+    div {
+        .estadistica2 {
+            color: $color-cuarto;
+            font-size: 20px;
 
-        h3 {
-            color: $color-terciario;
-        }
-
-        .skills {
-            .detalles {
-                span {
-                    color: $color-terciario;
-                }
+            h3 {
+                color: $color-terciario;
             }
 
+            .skills {
+                .detalles {
+                    span {
+                        color: $color-terciario;
+                        justify-content: space-between;
+                    }
+                }
+
+            }
         }
     }
 
+
     // arg-ara estadisticas
-    header {
-        h1 {
-            font-size: 40px;
+    .esta{
+        h1{
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
             text-align: center;
         }
     }
@@ -115,6 +123,7 @@
             h2 {
                 text-align: center;
                 font-size: 35px;
+                color: $color-terciario;
 
                 .parra {
                     font-size: 25px;
@@ -144,6 +153,19 @@
         }
     }
 
+    .mex {
+         .mex1 {
+            color: $color-terciario;
+            text-align: center;
+
+        }
+
+        .mex2 {
+            text-align: center;
+
+        }
+    }
+
     .polonia {
         color: $color-terciario;
 
@@ -165,6 +187,8 @@
             align-items: center;
             text-align: center;
             margin: 20px;
+            width: 350px;
+            margin-left: 150px;
 
             div {
                 h5 {
