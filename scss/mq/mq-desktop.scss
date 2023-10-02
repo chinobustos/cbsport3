@@ -53,7 +53,7 @@
             text-align: center;
         }
 
-        iv {
+        div {
             color: $color-principal;
 
             .tituloForm {
@@ -98,7 +98,7 @@
     }
 
     // main partidos
-    
+
 
     // arg-ara estadisticas
     header {
@@ -116,6 +116,7 @@
             h2 {
                 text-align: center;
                 font-size: 35px;
+                color: $color-terciario;
 
                 .parra {
                     font-size: 25px;
@@ -159,26 +160,15 @@
         }
     }
 
-    //article
-    article {
-        text-align: center;
-
-        h2 {
-            color: $color-terciario;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    main {
+        .tarjeta {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
         }
-
-        p {
-            color: $color-terciario;
-
-        }
-
-        img {
-            width: 300px;
-            height: 350px;
-        }
-
     }
+
 
 
 }

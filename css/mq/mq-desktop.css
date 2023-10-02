@@ -35,28 +35,28 @@
     font-size: 30px;
     text-align: center;
   }
-  .principal iv {
+  .principal div {
     color: rgba(43, 5, 5, 0.849);
   }
-  .principal iv .tituloForm {
+  .principal div .tituloForm {
     text-decoration: underline;
   }
-  .principal iv .sloganForm {
+  .principal div .sloganForm {
     color: black;
   }
-  .principal iv .fondoForm {
+  .principal div .fondoForm {
     background-color: brown;
   }
-  .principal iv .smallForm {
+  .principal div .smallForm {
     font-size: 15px;
   }
-  .principal iv .colorBtn {
+  .principal div .colorBtn {
     background-color: rgba(39, 37, 37, 0.7725490196);
     color: black;
     font-size: 1.5rem;
     margin: 5px;
   }
-  .principal iv .colorBtn:hover {
+  .principal div .colorBtn:hover {
     background-color: brown;
     color: black;
   }
@@ -75,6 +75,7 @@
   .arg div h2 {
     text-align: center;
     font-size: 35px;
+    color: whitesmoke;
   }
   .arg div h2 .parra {
     font-size: 25px;
@@ -104,19 +105,11 @@
     margin-left: 155px;
     font-size: 20px;
   }
-  article {
+  main .tarjeta {
+    display: flex;
     text-align: center;
-  }
-  article h2 {
-    color: whitesmoke;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  }
-  article p {
-    color: whitesmoke;
-  }
-  article img {
-    width: 300px;
-    height: 350px;
+    justify-content: center;
+    align-items: center;
   }
 }
 

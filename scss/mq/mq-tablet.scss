@@ -79,6 +79,26 @@
         }
     }
 
+    //estadisticas listado
+    .estadistica2 {
+        width: 500px;
+        color: $color-cuarto;
+        font-size: 20px;
+
+        h3 {
+            color: $color-terciario;
+        }
+
+        .skills {
+            .detalles {
+                span {
+                    color: $color-terciario;
+                }
+            }
+
+        }
+    }
+
     // arg-ara estadisticas
     header {
         h1 {
@@ -138,29 +158,20 @@
         }
     }
 
-    //article
+    main {
+        .tarjeta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
 
-    article {
-        text-align: center;
-
-        h2 {
-            color: $color-terciario;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            font-size: 25px;
-        }
-
-        p {
-            color: $color-terciario;
-            font-size: 20px;
-
-        }
-
-        img {
-            width: 250px;
-            height: 300px;
+            div {
+                h5 {
+                    font-size: 15px;
+                }
+            }
         }
 
     }
-
-
 }

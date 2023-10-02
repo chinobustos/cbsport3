@@ -27,9 +27,15 @@
 }
 
 /*estadisticas listado*/
-.estadistica {
+.estadistica2 {
   color: brown;
-  font-size: 80px;
+  font-size: 20px;
+}
+.estadistica2 h3 {
+  color: whitesmoke;
+}
+.estadistica2 .skills .detalles span {
+  color: whitesmoke;
 }
 
 .arg {
@@ -64,6 +70,14 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   position: relative;
   right: 50%;
+}
+
+.tarjeta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=estsdisticas.css.map */

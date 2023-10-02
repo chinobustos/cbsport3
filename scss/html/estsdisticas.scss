@@ -3,9 +3,10 @@
 @import "../utilidades/extend";
 
 .bodyes {
-   background-image: linear-gradient($color-cuarto,$color-principal);
+    background-image: linear-gradient($color-cuarto, $color-principal);
 
 }
+
 .row {
     border-radius: 10px;
     width: 100%;
@@ -17,14 +18,16 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    .card{
+
+    .card {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
         margin-left: 100px;
         height: 380px;
-        img{
+
+        img {
             width: 320px
         }
     }
@@ -32,10 +35,23 @@
 }
 
 /*estadisticas listado*/
-.estadistica {
+.estadistica2 {
     color: $color-cuarto;
-    font-size: 80px
+    font-size: 20px;
+    h3{
+        color: $color-terciario;
+    }
+    .skills{
+        .detalles{
+            span{
+                color: $color-terciario;
+            }
+        }
+
+    }
 }
+
+
 
 .arg {
     color: $color-terciario;
@@ -72,5 +88,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     position: relative;
     right: 50%;
+
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+
 
 }
